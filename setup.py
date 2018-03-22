@@ -6,5 +6,6 @@ setup(name='renyi',
       url='https://github.com/bkolligs/entanglement-package.git',
       author='Ben Kolligs',
       packages=['renyi'],
+      install_requires= ['time', 'numpy', 'datetime', 'mpmath', 'pylab', 'random'],
       zip_safe = False
 )

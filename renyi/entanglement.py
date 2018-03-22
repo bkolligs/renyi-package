@@ -1,6 +1,6 @@
 import time, numpy, datetime, mpmath, pylab, random
 from numpy import ones, arange, sqrt, array, savetxt, vstack, zeros
-from math import exp, pi, cos, sin
+from mpmath import exp, pi, cos, sin
 
 
 # Calculates the RMI for the XY model and for any model that uses normal thermodynamics (Ising)
